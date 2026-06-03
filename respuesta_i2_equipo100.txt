@@ -1,0 +1,5 @@
+gamma - joaquin schenone mateos
+a) para actualizar los cambios tengo que conseguir los cambios del repo original, y mezclarlos con el mio.
+b) si, pero se suelen hacer los cambios desde el repo original
+
+
