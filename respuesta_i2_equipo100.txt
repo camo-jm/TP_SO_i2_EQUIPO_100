@@ -1,5 +1,11 @@
+beta - Facundo Martinachi
+alfa - Matias Gonzalez
 gamma - joaquin schenone mateos
 a) para actualizar los cambios tengo que conseguir los cambios del repo original, y mezclarlos con el mio.
 b) si, pero se suelen hacer los cambios desde el repo original
+
+c) Si puede agregar el fork de alfa para sincronizarse con el, pero seria mejor desde el repositorio original
+d) No, no se pierden ya que lo que hace git es combinarlos automáticamente los cambios locales, con los forks, solamente te avisaría si habría un error
+
 
 
