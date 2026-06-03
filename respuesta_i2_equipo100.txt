@@ -9,3 +9,56 @@ d) No, no se pierden ya que lo que hace git es combinarlos automáticamente los 
 
 
 
+e) 
+1. Facundo Martinachi (BETA)
+   - Crea el repositorio TP_SO_i2_Equipo con README.md y fork.txt.
+   - Sube el repositorio a GitHub.
+
+   git add .
+   git commit -m "Creacion inicial del repositorio"
+   git push -u origin main
+
+2. Joaquín Schenone (GAMMA)
+   - Realiza un fork del repositorio de BETA.
+   - Clona su fork en forma local.
+   - Modifica fork.txt agregando nombre y apellido, IP y hora.
+   - Sube los cambios a su fork.
+
+   git clone URL_FORK_GAMMA
+   cd TP_SO_i2_Equipo
+   git add .
+   git commit -m "Datos de Joaquin Schenone"
+   git push
+
+3. Matías González (ALFA)
+   - Realiza un fork del repositorio de BETA.
+   - Clona su fork en forma local.
+   - Modifica fork.txt agregando nombre y apellido, IP y hora.
+   - Sube los cambios a su fork.
+
+   git clone URL_FORK_ALFA
+   cd TP_SO_i2_Equipo
+   git add .
+   git commit -m "Datos de Matias Gonzalez"
+   git push
+
+4. Facundo Martinachi (BETA)
+   - Clona o actualiza su repositorio local.
+   - Crea el archivo NuevoDato.txt.
+   - Sube los cambios al repositorio original.
+
+   git add .
+   git commit -m "Agrego NuevoDato.txt"
+   git push 
+
+5. Joaquín Schenone (GAMMA)
+   - Actualiza su fork para incorporar los cambios realizados por BETA.
+
+   git pull upstream main
+
+6. Matías González (ALFA)
+   - Actualiza su fork para incorporar los cambios realizados por BETA.
+
+   git pull upstream main
+
+Resultado final: Los forks de Matías González (ALFA) y Joaquín Schenone (GAMMA) quedan sincronizados con el repositorio original de Facundo Martinachi (BETA), incluyendo el archivo NuevoDato.txt y conservando las modificaciones realizadas por cada integrante en fork.txt.
